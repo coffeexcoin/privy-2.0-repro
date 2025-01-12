@@ -1,6 +1,5 @@
 "use client";
 import { ConnectedWallet, usePrivy, useWallets } from "@privy-io/react-auth";
-import { useCallback } from "react";
 import { toHex } from "viem";
 
 export default function Home() {
